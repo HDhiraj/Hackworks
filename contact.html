@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<title>Contact Us</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="nav styles.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hello World</title>
+	</head>
+<body>
+<h1>Peer Support Program</h1>
+<div class="sticky">
+	<ul>
+	<li><a href="home.html">Home</a></li>
+	<li class="active"><a href="Dashboard.html">Dashboard</a></li>
+	<!--<li><a href="contact">How can we help?</a></li>
+	<li><a href="index_2.html">What can you help with?</a></li>-->
+	<li><a href="resources.html">Resources</a></li>
+	<li><a href="contact.html">Contact Us</a></li>
+	<li class="dropdown">
+		<a href="javascript:void(0)" class="dropbtn">Profile</a>
+		<div class="dropdown-content">
+			<a href="ratings.html">Ratings</a>
+			<a href="comments.html">Comments</a>
+			<a href="privacy_settings.html">Privacy Settings</a>
+		</div></li>
+		<li><a href="login.html">User</a></li>
+		</ul></div>
+
+	<h2>Tell us about yourself</h2>
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">NAME</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">EMAIL</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="email" name="email_addresss" placeholder="Your email address..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">UNIVERSITY</label>
+      </div>
+      <div class="col-75">
+        <select id="University" name="University">
+          <option value="australia">UBC</option>
+          <option value="canada">SFU</option>
+          <option value="usa">BCIT</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">SUBJECT</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
